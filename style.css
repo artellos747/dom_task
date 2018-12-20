@@ -1,0 +1,33 @@
+body{
+	background: linear-gradient(to left, orangered, gold);
+	padding-left: 30px;
+	max-width: 100%;
+
+}
+
+.menu{
+	padding: 10px;
+	
+}
+#menu_lines{
+	/*border: 1px solid black;*/
+}
+li{
+	padding: 10px;
+	font-size: 2em;
+	outline: 1px solid black;
+	list-style-type: none;
+}
+.content{
+	display: flex;
+	flex-wrap: wrap;		
+}
+
+.pattern_content{
+	order: 2;
+	padding: 30px;	
+	max-width: 70%;
+}
+img{
+	max-width: 50%;
+}
